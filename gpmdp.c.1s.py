@@ -16,6 +16,7 @@ import requests
 #It should be around the same place with the username changed
 json_path = "/home/luke/.config/Google Play Music Desktop Player/json_store/playback.json"
 
+#This function (and only this function) taken from https://github.com/Skillzore/argosSpotifyExtension
 def isRunning(name):
 	for proc in psutil.process_iter():
 		if(proc.name() == name):
