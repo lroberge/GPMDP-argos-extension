@@ -8,7 +8,6 @@ from gi.repository import Gtk, Wnck
 import json
 import math
 import psutil
-import os
 import base64
 import requests
 
